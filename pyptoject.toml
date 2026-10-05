@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Lab3_Functions"
+version = "1.0.0"
+description = "Console App"
+readme = "README.md"
+requires-python = ">=3.6"
+
+[project.scripts]
+mytask = "my_program.main:run"
+
+[tool.setuptools.packages.find]
+where = ['Lab3']
