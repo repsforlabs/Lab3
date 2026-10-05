@@ -23,16 +23,17 @@ while True:
             if inpX.isdigit() and inpY.isdigit():
                 x = int(inpX)
                 y = int(inpY)
+                print(f'Answer: {Task1(x,y)}')
             else:
                 print('Only nubers allowed!')
-            print(f'Answer: {Task1(x,y)}')
         elif user_choose == 2:
             inpX = input('Enter value for X: ')
             if inpX.isdigit():
                 x = int(inpX)
+                print(f'Answer: {Task2(x)}')
             else:
                 print('Only numbers allowed!')
-            print(f'Answer: {Task2(x)}')
+            
     except ValueError:
         print('Only nubers allowed!')
 

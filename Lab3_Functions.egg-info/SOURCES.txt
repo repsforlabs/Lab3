@@ -1,0 +1,8 @@
+README.md
+main.py
+pyproject.toml
+Lab3_Functions.egg-info/PKG-INFO
+Lab3_Functions.egg-info/SOURCES.txt
+Lab3_Functions.egg-info/dependency_links.txt
+Lab3_Functions.egg-info/entry_points.txt
+Lab3_Functions.egg-info/top_level.txt

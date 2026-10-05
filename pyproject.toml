@@ -10,7 +10,5 @@ readme = "README.md"
 requires-python = ">=3.6"
 
 [project.scripts]
-mytask = "my_program.main:run"
+lab = "main:run"
 
-[tool.setuptools.packages.find]
-where = ['Lab3']
